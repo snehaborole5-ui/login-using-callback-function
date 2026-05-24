@@ -6,7 +6,7 @@ function hrCall(){
     // API Call >> Async Js (non-blocking) 
 
 setTimeout(() => {
-    let err = Math.random() > .5 ? false : true;
+    let err = Math.random() > .2 ? false : true;
     if(!err){
         // API success
         cl(`Candidate is shortlisted for 1st tech interview`)
@@ -57,7 +57,7 @@ function secondTech(){
 function finalRound(){
     // API CALL >> Asunc js (non-blocking)
     setTimeout(() => {
-        let err = Math.random() > .5 ? false : true
+        let err = Math.random() > .2 ? false : true
         if(!err){
             Swal.fire({
                 title : `Candidate is selected for given profile !!!`,
